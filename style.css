@@ -115,9 +115,11 @@ nav img{
 @media screen and (max-width: 768px) {
     .text-box h1 {
         font-size: 100px;  
+        text-align: center;
     }
     .text-box p {
         font-size: 14px;
+        text-align: center;
     }
 }
 
