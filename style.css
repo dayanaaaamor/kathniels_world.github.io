@@ -27,7 +27,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* height: 400px; */
     opacity: 0.8;
     overflow: hidden;
 }
@@ -36,21 +35,6 @@ body {
     height: 100%;
     object-fit: contain;
 }
-
-/* @media(min-aspect-ratio: 16/9){
-    .back-video{
-        width: 100%;
-        height: auto;
-    }
-} */
-/* @media(max-aspect-ratio: 16/9){
-    .back-video{
-        width: auto;
-        height: 100%;
-    }
-} */
-
-
 
 nav {
     display: flex;
@@ -164,6 +148,17 @@ nav .material-icons{
     }
     .text-box p {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text-box{
+        cursor: pointer;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
     }
 }
 
@@ -359,7 +354,7 @@ h3{
 
 
 
-/* ------facilities----- */
+/* ------facilities-----
 
 .facilities{
     width: 80%;
@@ -386,11 +381,11 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
-}
+} */
 
 /* ----testinomials------- */
 
-.testimonials{
+/* .testimonials{
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -418,7 +413,7 @@ h3{
 .testimonials-col h3{
     margin-top: 15px;
     text-align: left;  
-}
+} */
 
 @media(max-width: 700px){
     .testimonials-col img{
